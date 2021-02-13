@@ -1,0 +1,48 @@
+.pic-box{
+    display: flex;
+    justify-content: center;
+   
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px
+ 
+}
+.movie-image{
+    height: 300px;
+    width: 200px;
+}
+.movie-rating{
+    display: flex;
+    float: right;
+}
+input{
+    border: 1px solid black
+}
+.rate{
+    border: 1px solid black
+}
+
+.desc{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+.add{
+    height: 300px;
+    font-size: 56px;
+    border: 1px solid black;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 43%;
+}
